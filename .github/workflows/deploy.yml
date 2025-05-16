@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "wechat-paper-exporter"
-          entrypoint: "server/index.ts"
+          entrypoint: "server/index.mjs"
           root: ".output"
           
           
