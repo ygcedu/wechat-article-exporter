@@ -39,6 +39,6 @@ jobs:
         with:
           project: "wechat-paper-exporter"
           entrypoint: "server/index.ts"
-          root: "output"
+          root: ".output"
           
           
